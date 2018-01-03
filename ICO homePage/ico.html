@@ -1,0 +1,233 @@
+</!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset ="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" type="text/css" href = "cs/style.css">
+    <link rel="stylesheet" href = "cs/lightbox.css">
+    <link rel="stylesheet" type="text/css" href ="cs/button.css">
+    <link rel="stylesheet" type="text/css" href ="cs/member.css">
+    <link rel="stylesheet" type="text/css" href ="cs/timeline.css">
+    <link rel="stylesheet" type="text/css" href ="cs/language.css">
+</head>
+
+<body>
+    <div id = "site_wrapper">
+        <div id = "header_wrapper">
+            <nav id = "top_menu">
+                <ul>
+                    <li class = "top_menu_li"><a class = "link" onclick = "fnMove('intro')">Logo</a></li>
+                    <li class = "top_menu_li"><a data-langNum="0" class = "link" onclick = "fnMove('white_paper')"> White Paper</a></li>
+                    <li class = "top_menu_li"><a data-langNum="1" class = "link" onclick = "fnMove('team_member')"> Team Members</a></li>
+                    <li class = "top_menu_li"><a data-langNum="2" class = "link" onclick = "fnMove('faq')"> FAQ</a></li>
+                    <li class = "top_menu_li"><a data-langNum="3" class = "link" onclick = "fnMove('contact')"> Contact US</a></li>
+                    <li class = "top_menu_li"><a data-langNum="4" class = "link"> Language</a>
+                        <ul class = "language_menu">
+                            <li data-lang='en' id = "flag_icon_EN"><a class = "language_list"></a></li><br>
+                            <li data-lang='ko' id = "flag_icon_KR"><a class = "language_list"></a></li><br>
+                            <li data-lang='pt' id = "flag_icon_PT"><a class = "language_list"></a></li><br>
+                            <li data-lang='cn' id = "flag_icon_CN"><a class = "language_list"></a></li><br>
+                            <li data-lang='jp' id = "flag_icon_JP"><a class = "language_list"></a></li><br>
+                        </ul>
+                        
+                    </li>
+
+                </ul>
+            
+        </div>
+            <br>
+            <br>
+            <br>
+            <br>
+        
+        <div id = "body_wrapper">
+            <div id = "body_intro">
+                <div class ="content">
+                    <a>Name</a>
+                    <br><br><br>
+                    <a>Vision</a>
+                    <br><br><br><br>
+                    <a data-langNum="5" >ICO ENDS IN </a><br>
+                    <p id = 'time'></p>
+               
+                </div>
+            </div>
+        
+            <div id = "body_white_paper">
+
+               <div class = "whitePaper_content">
+                    <a class = white_paper href = 'whitePaper.jpg' data-lightbox = 'whitePaper'>
+                        <img class=white_paper_popup src ='whitePaper.jpg' data-lightbox='whitePaper' width="450" height="350">
+                    </a>
+                    <br>
+                    <div id = "timeline">
+                        <div class="entries">
+                            <div class="entry">
+                                <div class="title">2018.01</div>
+                                <div class="timeline_body"><p>We are staring ICO project! a a a a a a a a a a a a a 
+                                a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a
+                                a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a
+                                </p>
+                            </div>
+                            </div>
+
+                            <div class = "entry">
+                                <div class="title big">2018.05</div>
+                                <div class="timeline_body"><p>pre-sales! b b b b b b b b b b b b b b 
+                                    b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b 
+                                </p></div>
+                            </div>
+                            <div class = "entry">
+                                <div class="title big">2018.08</div>
+                                <div class="timeline_body"><p>sales b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b  </p></div>
+                            </div>
+                            <div class = "entry">
+                                <div class="title">2018.12</div>
+                                <div class="timeline_body"><p>end b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b</p></div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="col-md-3 col-sm-3 col-xs-6"> 
+                        <a href="whitePaper.pdf" class="btn btn-sm animated-button victoria-four">Download white Paper</a> 
+                   </div>
+                </div>
+            </div>
+            
+            <div id = "body_team_member">
+                <div id = 'member_class'>
+                    <div class = member1>
+                        <figcaption>
+                            <marquee direction=up scrollamount=2>
+                                <a id = member_content>This is Jungwon Seo, he is working at FINOTEK</a>
+                            </marquee>
+                        </figcaption>
+                    </div>
+
+
+                    <div class = member2>
+                        <figcaption>
+                            <marquee direction=up scrollamount=2>
+                                <a id = member_content>This is Jungwon Seo, he is working at FINOTEK </a>
+                            </marquee>
+                        </figcaption>
+                    </div>
+                    
+                    <div class = member3>
+                        <figcaption>
+                            <marquee direction=up scrollamount=2>
+                                <a id = member_content>This is Jungwon Seo, he is working at FINOTEK </a>
+                            </marquee>
+                        </figcaption>
+                    </div>
+                    <div class = member4>
+                        <figcaption>
+                            <marquee direction=up scrollamount=2>
+                                <a id = member_content>This is Jungwon Seo, he is working at FINOTEK </a>
+                            </marquee>
+                        </figcaption>
+                    </div>
+                    <div class = member5>
+                        <figcaption>
+                            <marquee direction=up scrollamount=2>
+                                <a id = member_content>This is Jungwon Seo, he is working at FINOTEK </a>
+                            </marquee>
+                        </figcaption>
+                    </div>
+                    <div class = member6>
+                        <figcaption>
+                            <marquee direction=up scrollamount=2>
+                                <a id = member_content>This is Jungwon Seo, he is working at FINOTEK </a>
+                            </marquee>
+                        </figcaption>
+                    </div>
+                </div>
+            </div>
+
+            <div id = "body_faq">
+                <div class = "question"> <a> question </a></div>
+                <div class = "answer"><a> answer answer  answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer </a></div>
+
+                <div class = "question"> <a> question2 </a></div>
+                <div class = "answer"><a> answer answer  answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer </a></div>
+
+                <div class = "question"> <a> question3 </a></div>
+                <div class = "answer"><a> answer answer  answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer </a></div>
+
+                <div class = "question"> <a> question4 </a></div>
+                <div class = "answer"><a> answer answer  answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer </a></div>
+
+            </div>
+
+            <div id = "body_contact">
+                <label> Your Name </label><br>
+                <input id = "name" type="text" placeholder="Name"><br>
+
+                <label> Your Email </label><br>
+                <input id = "email" type="text" placeholder="Email"><br>
+
+                <label> Country </label><br>
+                <input id = "country" type="text" placeholder="Country"><br>
+
+                <label> Subject </label><br>
+                <textarea id = "subject" placeholder="Write Something" style="height: 200px"> </textarea><br>
+
+                <input type="submit" id="email_submit">
+            </div>
+            <div id = "body_partner">
+                    <img src = "finoteklogo.png" width="250" height="100" hspace="20">
+                    <img src = "logosample.png" width="250" height="100" hspace="20">
+                    <img src = "logosample2.png" width="250" height="100" hspace="20">
+                    <img src = "logosample3.jpg" width="250" height="100" hspace="20">
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/lightbox-plus-jquery.js"></script>
+<script type="text/javascript" src ="js/language.js"></script>
+<script type="text/javascript">
+    
+    //smooth scrolling
+    function fnMove(seq){
+        var offset = $("#body_" + seq).offset();
+        $('html, body').animate({scrollTop : offset.top-100}, 500);
+    }
+
+    //Count down 
+    var countDateDate = new Date("Dec 31, 2018 00:00:00").getTime();
+    var x = setInterval(function(){
+        var now = new Date().getTime();
+        var distance = countDateDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("time").innerHTML = days +"D " + hours + "H " + minutes + "m " + seconds + "s ";
+
+        if (distance < 0){
+            clearInterval(x);
+            document.getElementById("time").innerHTML = "THE END";
+        };
+    }, 1000);
+
+    //faq
+    $(".question").click(function(){
+        var answer = $(this).next(".answer");
+
+        if(answer.is(":visible")){
+            answer.slideUp();
+        }else{
+            answer.slideDown();
+        }
+
+    });
+
+    $("#email_submit").click(function(){
+        alert("test!");
+    });
+
+</script>
+</html>

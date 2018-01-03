@@ -1,0 +1,12 @@
+.link:lang(ko){
+		color: blue
+}
+.link:lang(pt){
+		color: green;
+}
+.link:lang(cn){
+		color: red;
+}
+.link:lang(jp){
+		color: purple;
+}
